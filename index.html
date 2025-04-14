@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spot the Difference</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-bar">
+      <h1>Spot the Difference</h1>
+      <button id="startBtn">Start Game</button>
+    </div>
+  
+    <div id="gameArea" style="display: none;">
+      <div class="container">
+        <div class="image-box" id="left"></div>
+        <div class="image-box" id="right"></div>
+      </div>
+  
+      <p>Score: <span id="score">0</span> | Time: <span id="timer">60</span>s</p>
+      <p id="message"></p>
+  
+      <audio id="ding" src="ding.mp3"></audio>
+      <audio id="win" src="win.mp3"></audio>
+      <audio id="lost" src="lost.mp3"></audio>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>

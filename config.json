@@ -1,0 +1,10 @@
+{
+  "title": "Spot the 3 Differences!",
+  "image1": "image1.jpg",
+  "image2": "image2.jpg",
+  "differences": [
+    { "x": 132, "y": 265, "width": 34, "height": 28 },   
+    { "x": 223, "y": 242, "width": 28, "height": 62 },   
+    { "x": 4, "y": 138, "width": 19, "height": 42 }    
+  ]
+}
