@@ -28,7 +28,7 @@ That’s it! No installation required.
 
 __________________________________________________________________________________________________________________________________________________________________________________________
 
-#How the Game Uses config.json:
+# How the Game Uses config.json:
 
 The game uses a config.json file to dynamically load image data and define clickable "difference" zones. This file includes the file names of the two images (image1.jpg and image2.jpg) and a list of rectangular coordinates representing areas where differences exist. Each difference is defined using properties like x, y, width, and height, for example:
 
